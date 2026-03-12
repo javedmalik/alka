@@ -1589,8 +1589,8 @@ export default function ContactUsSection() {
     <section className="relative">
       <div className="relative h-[260px] w-full overflow-hidden sm:h-[320px]">
         <Image
-          src="/images/banners/contact.jpg"
-          alt="Donation banner"
+          src="/images/banners/contact1.jpg"
+          alt="Contact banner"
           fill
           priority
           className="object-center"
