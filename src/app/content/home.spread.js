@@ -20,8 +20,9 @@ const spreadContent = {
       image: "/images/banners/home_page_banners/9.jpeg",
       alt: "Flyer design",
       buttonText: "Download flyer",
-      file: "/flyer.pdf",
-      tone: "gold", // ✅ uses your new colors
+      //file: "/flyer.pdf",
+      file: "https://res.cloudinary.com/dyevnylyo/image/upload/v1773323052/ALKA_New_Flyer_4_fpdq7z.pdf",
+      tone: "gold",
     },
   ],
 };

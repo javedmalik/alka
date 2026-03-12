@@ -241,7 +241,8 @@ export default function SpreadSection() {
                       <div className="mt-auto pt-5 grid grid-cols-1 gap-3">
                         <a
                           href={template.file}
-                          download
+                           target="_blank"
+                          rel="noreferrer"
                           className="inline-flex w-full items-center justify-center rounded-2xl px-4 py-3 text-sm font-semibold text-white transition
                                      hover:opacity-90 active:opacity-80 focus:outline-none focus-visible:ring-2"
                           style={{
