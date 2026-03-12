@@ -20,7 +20,7 @@ const spreadContent = {
       image: "/images/banners/home_page_banners/9.jpeg",
       alt: "Flyer design",
       buttonText: "Download flyer",
-      file: "/flyer1.pdf",
+      file: "/flyer.pdf",
       tone: "gold", // ✅ uses your new colors
     },
   ],

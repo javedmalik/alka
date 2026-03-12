@@ -21,7 +21,7 @@ export default function DonateBanner() {
       <div className="container-page max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
         <div className="mx-auto max-w-6xl">
           {/* Image / Video Card */}
-          {/* <div
+          <div
             className="relative overflow-hidden rounded-3xl shadow-lg"
             style={{ background: "var(--surface)" }}
           >
@@ -80,7 +80,7 @@ export default function DonateBanner() {
                 </div>
               )}
             </div>
-          </div> */}
+          </div>
 
           {/* Text Block */}
           <div className="mt-10 text-center">
