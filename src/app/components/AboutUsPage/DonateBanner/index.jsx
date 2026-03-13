@@ -263,7 +263,7 @@ export default function DonateBanner() {
       video.addEventListener("canplay", handleCanPlay);
       video.addEventListener("error", handleError);
 
-      video.src = "/video/alkamain.mp4";
+      video.src = "/video/alkaMain.mp4";
       video.load();
 
       return () => {
