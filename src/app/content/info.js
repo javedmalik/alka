@@ -11,7 +11,7 @@ const information = {
     {
       name: "Dr. Pankaj Mital",
       role: "(Trustee)",
-      image: "/images/team/PK2.jpg",
+      image: "/images/team/pankajm.jpg",
       text: "The driving force behind ALKA, transforming a thought into a movement of awareness and empowerment."
     },
     {
