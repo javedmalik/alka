@@ -214,7 +214,7 @@ export default function AlkaCards() {
     className="relative z-30 pt-16 pb-0 sm:pt-20 sm:pb-0"
     >
     
-      {/* Animated background elements - behind everything */}
+      
       <div className="pointer-events-none absolute inset-0 overflow-hidden -z-10">
         {/* Gradient orbs with parallax */}
         <motion.div
@@ -224,11 +224,7 @@ export default function AlkaCards() {
           }}
           transition={{ type: "spring", stiffness: 50, damping: 30 }}
           className="absolute -left-20 -top-20 h-[400px] w-[400px] rounded-full blur-3xl"
-          // style={{
-          //   background:
-          //     "radial-gradient(circle, var(--accent) 0%, transparent 70%)",
-          //   opacity: 0.15,
-          // }}
+         
         />
 
         <motion.div
@@ -238,11 +234,7 @@ export default function AlkaCards() {
           }}
           transition={{ type: "spring", stiffness: 50, damping: 30 }}
           className="absolute -bottom-20 -right-20 h-[500px] w-[500px] rounded-full blur-3xl"
-          // style={{
-          //   background:
-          //     "radial-gradient(circle, var(--primary) 0%, transparent 70%)",
-          //   opacity: 0.1,
-          // }}
+          
         />
 
         {/* Grid pattern */}
@@ -256,9 +248,9 @@ export default function AlkaCards() {
         />
       </div>
 
-      {/* Container with proper positioning */}
+     
       <div className="container-page max-w-[1600px] relative z-20">
-        {/* Overlap wrapper - responsive negative margins for all devices */}
+       
         <div
           className="relative z-30 
           -mt-30          /* mobile */
@@ -283,7 +275,7 @@ export default function AlkaCards() {
                   variants={fadeInUp}
                   onHoverStart={() => setHoveredIndex(idx)}
                   onHoverEnd={() => setHoveredIndex(null)}
-                  className="group relative overflow-hidden rounded-2xl sm:rounded-3xl border shadow-lg sm:shadow-xl cursor-pointer"
+                  className="group relative overflow-hidden rounded-2xl sm:rounded-3xl border shadow-lg sm:shadow-xl"
                   style={{
                     borderColor: isHovered ? bg : "var(--border)",
                     background: "var(--surface)",
@@ -422,39 +414,7 @@ export default function AlkaCards() {
                       {c.desc}
                     </p>
 
-                    {/* Bottom micro-row */}
-                    {/* <motion.div
-                      className="mt-auto pt-4 sm:pt-6 flex items-center justify-between text-xs"
-                      animate={isHovered ? { y: -1 } : { y: 0 }}
-                    >
-                      <span
-                        className="flex items-center gap-1 sm:gap-2 text-[10px] sm:text-xs"
-                        style={{ color: "var(--text-muted)" }}
-                      >
-                        <Sparkles
-                          className="h-2.5 w-2.5 sm:h-3 sm:w-3"
-                          style={{ color: bg }}
-                        />
-                        ALKA
-                      </span>
-
-                      <motion.span
-                        className="inline-flex items-center gap-1 sm:gap-2 font-semibold cursor-pointer group/link text-[10px] sm:text-xs"
-                        style={{ color: "var(--text)" }}
-                        whileHover={{ x: 2 }}
-                      >
-                        Learn more
-                        <motion.span
-                          animate={isHovered ? { x: [0, 3, 0] } : { x: 0 }}
-                          transition={{
-                            repeat: isHovered ? Infinity : 0,
-                            duration: 1.2,
-                          }}
-                        >
-                          <ArrowRight className="h-2.5 w-2.5 sm:h-3 sm:w-3" />
-                        </motion.span>
-                      </motion.span>
-                    </motion.div> */}
+                 
                   </div>
 
                   {/* Progress indicator */}
@@ -502,14 +462,7 @@ export default function AlkaCards() {
           </MotionLink>
         </motion.div>
 
-        {/* Minimal separator - responsive height */}
-        {/* <motion.div
-          variants={fadeInUp}
-          className="pointer-events-none mt-4 sm:mt-6 h-3 sm:h-4 rounded-3xl opacity-15 sm:opacity-20 blur-xl sm:blur-2xl"
-          style={{
-            background: "linear-gradient(90deg, var(--accent), var(--primary))",
-          }}
-        /> */}
+      
       </div>
     </motion.section>
   );

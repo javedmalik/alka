@@ -113,13 +113,7 @@ export default function FooterSection() {
         />
       </div>
 
-      {/* Top Animated Tagline Strip - Reduced height */}
-      {/* <div className="alka-footer-sweep relative border-y border-white/5 py-2 sm:py-3">
-        <div className="alka-footer-sweep-glow" />
-        <div className="container-page max-w-[1600px] text-center mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 py-10 sm:py-12 alka-footer-sweep-inner">
-          <div className="alka-footer-sweep-text">#ummeed ek behtar kal ki</div>
-        </div>
-      </div> */}
+      
       <AnimatedTagline />
 
       {/* Main Footer Content - Increased width, reduced padding */}
@@ -146,35 +140,7 @@ export default function FooterSection() {
               {brand?.description || ""}
             </p>
 
-            {/* CTA Buttons - Smaller height */}
-            {/* <div className="flex flex-wrap items-center gap-3 mt-5">
-              <Link
-                href="/donation"
-                className="group relative inline-flex h-9 items-center gap-1.5 rounded-lg px-4 text-sm font-medium text-white overflow-hidden"
-                style={{
-                  background:
-                    "linear-gradient(135deg, var(--accent), var(--primary))",
-                }}
-              >
-                <span className="absolute inset-0 bg-white opacity-0 transition-opacity group-hover:opacity-20" />
-                <span className="relative flex items-center gap-1.5">
-                  Donate
-                  <Heart className="h-3.5 w-3.5" />
-                </span>
-              </Link>
-
-              <Link
-                href="/contactus"
-                className="group relative inline-flex h-9 items-center gap-1.5 rounded-lg px-4 text-sm font-medium backdrop-blur-sm transition-all hover:bg-white/10"
-                style={{
-                  border: "1px solid rgba(255,255,255,0.15)",
-                  color: "rgba(255,255,255,0.9)",
-                }}
-              >
-                Contact Us
-                <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              </Link>
-            </div> */}
+            
 
             {/* Social Icons - Smaller */}
             <div className="flex flex-wrap items-center gap-2 pt-2">

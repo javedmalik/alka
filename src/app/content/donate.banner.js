@@ -16,8 +16,8 @@
 const donateBanner = {
   image: "/images/banners/aboutus_page_banners/mission.jpeg",
   imageAlt: "Donate banner",
-  // Use the API proxy instead of direct Cloudinary URL
-  videoHref: "/api/contact?video=alka_1_umhnhr", // Using your existing API route
+  // Use the dedicated video proxy API route
+  videoHref: "/api/video-proxy?video=alka_1_umhnhr",
   kicker: "MAKE A DIFFERENCE TODAY",
   title: "Your contribution matters. Support our cause by making a donation.",
   description:

@@ -14,12 +14,12 @@ export default function StoriesBanner() {
           alt={storiesBanner.title}
           fill
           priority
-          className="object-center"
+          className="object-cover object-[center_20%]"
           sizes="100vw"
         />
 
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black/15" />
+        <div className="absolute inset-0" />
 
         {/* Text */}
         <div className="container-page relative h-full">

@@ -106,57 +106,57 @@ export async function POST(req) {
 }
 
 // Handle GET requests for video proxy
-export async function GET(req) {
-  try {
-    // Get the video filename from the URL query parameters
-    const { searchParams } = new URL(req.url);
-    const video = searchParams.get('video') || 'alka_1_umhnhr';
+// export async function GET(req) {
+//   try {
+//     // Get the video filename from the URL query parameters
+//     const { searchParams } = new URL(req.url);
+//     const video = searchParams.get('video') || 'alka_1_umhnhr';
     
-    // You can add more video options here
-    const videoUrls = {
-      'alka_1_umhnhr': 'https://res.cloudinary.com/dyevnylyo/video/upload/alka_1_umhnhr.mp4',
-      'default': 'https://res.cloudinary.com/dyevnylyo/video/upload/alka_1_umhnhr.mp4'
-    };
+//     // You can add more video options here
+//     const videoUrls = {
+//       'alka_1_umhnhr': 'https://res.cloudinary.com/dyevnylyo/video/upload/alka_1_umhnhr.mp4',
+//       'default': 'https://res.cloudinary.com/dyevnylyo/video/upload/alka_1_umhnhr.mp4'
+//     };
     
-    const videoUrl = videoUrls[video] || videoUrls.default;
+//     const videoUrl = videoUrls[video] || videoUrls.default;
     
-    // Fetch the video with proper headers
-    const response = await fetch(videoUrl, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; Next.js/1.0)',
-        'Accept': 'video/mp4,video/*;q=0.9,*/*;q=0.8'
-      }
-    });
+//     // Fetch the video with proper headers
+//     const response = await fetch(videoUrl, {
+//       headers: {
+//         'User-Agent': 'Mozilla/5.0 (compatible; Next.js/1.0)',
+//         'Accept': 'video/mp4,video/*;q=0.9,*/*;q=0.8'
+//       }
+//     });
     
-    if (!response.ok) {
-      console.error(`Failed to fetch video: ${response.status} ${response.statusText}`);
-      return new NextResponse('Video not found', { status: 404 });
-    }
+//     if (!response.ok) {
+//       console.error(`Failed to fetch video: ${response.status} ${response.statusText}`);
+//       return new NextResponse('Video not found', { status: 404 });
+//     }
     
-    // Get the video data as ArrayBuffer
-    const videoData = await response.arrayBuffer();
+//     // Get the video data as ArrayBuffer
+//     const videoData = await response.arrayBuffer();
     
-    // Get the content type from the response or default to video/mp4
-    const contentType = response.headers.get('content-type') || 'video/mp4';
+//     // Get the content type from the response or default to video/mp4
+//     const contentType = response.headers.get('content-type') || 'video/mp4';
     
-    // Return the video with proper headers
-    return new NextResponse(videoData, {
-      status: 200,
-      headers: {
-        'Content-Type': contentType,
-        'Content-Length': videoData.byteLength.toString(),
-        'Cache-Control': 'public, max-age=31536000, immutable',
-        'Accept-Ranges': 'bytes',
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET, OPTIONS',
-        'Access-Control-Allow-Headers': 'Range',
-      },
-    });
-  } catch (error) {
-    console.error('Video proxy error:', error);
-    return new NextResponse('Failed to load video', { status: 500 });
-  }
-}
+//     // Return the video with proper headers
+//     return new NextResponse(videoData, {
+//       status: 200,
+//       headers: {
+//         'Content-Type': contentType,
+//         'Content-Length': videoData.byteLength.toString(),
+//         'Cache-Control': 'public, max-age=31536000, immutable',
+//         'Accept-Ranges': 'bytes',
+//         'Access-Control-Allow-Origin': '*',
+//         'Access-Control-Allow-Methods': 'GET, OPTIONS',
+//         'Access-Control-Allow-Headers': 'Range',
+//       },
+//     });
+//   } catch (error) {
+//     console.error('Video proxy error:', error);
+//     return new NextResponse('Failed to load video', { status: 500 });
+//   }
+// }
 
 // Handle OPTIONS requests for CORS preflight
 export async function OPTIONS(req) {

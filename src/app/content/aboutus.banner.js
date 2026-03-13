@@ -1,7 +1,7 @@
 export const aboutBanner = {
   brand: "Charity",
   heroImage: "/images/banners/about.jpg", // your image
-  title: "About Alka",
+  title: "About ALKA",
   // subtitle:
   //   "Learn more about our non-profit organization and our mission to make a positive impact on the world through our charitable initiatives.",
   subtitle: "NOT ALL OF US CAN DO GREAT THINGS. BUT WE CAN DO SMALL THINGS WITH GREAT LOVE",

@@ -16,7 +16,7 @@ Together, we planted saplings and planted values of responsibility, care, and ho
     title: "New Year Celebration",
     date: "January 2025",
     location: "",
-    description: `On January 2025, I, along with our volunteers, visited a nearby local community area to celebrate the New Year with children and create moments of joy and togetherness. Around 30–35 children joined us for the celebration, filling the day with laughter, excitement, and smiles.
+    description: `On January 2025, We, along with our volunteers, visited a nearby local community area to celebrate the New Year with children and create moments of joy and togetherness. Around 30–35 children joined us for the celebration, filling the day with laughter, excitement, and smiles.
 As part of the initiative, we distributed food packets, cakes, and water bottles, ensuring that every child felt cared for and included. The celebration concluded with a joyful cake-cutting ceremony, making the New Year truly special for the children and giving them a reason to celebrate the beginning of a new year with happiness.
 This initiative was a heartfelt effort to spread warmth, kindness, and hope, reinforcing our belief that even small acts of compassion can create meaningful impact and lasting memories.`,
     images: [
@@ -40,7 +40,7 @@ This initiative was a heartfelt effort to spread warmth, kindness, and hope, rei
     title: "Cricket Tournament",
     date: "December 2025",
     location: "",
-    description: `On December 2025, a cricket tournament was organized for our NGO, ALKA, and was proudly sponsored by Business Needs Inc. (BNI). The event received wonderful support from our partners as well; Riyu sponsored the jerseys for the tournament, while Harshu sponsored the food. The day was filled with enthusiasm, sportsmanship, and teamwork, making it a memorable experience for everyone involved.`,
+    description: `On December 2025, a cricket tournament was organized for our NGO, ALKA, and was proudly sponsored by Business Needs Inc. The event received wonderful support from our partners as well; Riyu sponsored the jerseys for the tournament, while Harshu sponsored the food. The day was filled with enthusiasm, sportsmanship, and teamwork, making it a memorable experience for everyone involved.`,
     images: [
       "/images/gallery/dec2025/(1).jpg",
       "/images/gallery/dec2025/(2).jpg",

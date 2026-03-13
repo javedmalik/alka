@@ -651,28 +651,7 @@ export default function HowWeAreSection() {
       <div className="container-page max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 relative z-10">
         {/* Header with decorative elements */}
         <motion.div variants={fadeInUp} className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
-          {/* <div className="relative inline-block">
-            <div className="absolute -inset-1 bg-gradient-to-r from-[var(--accent)] to-[var(--primary)] rounded-full blur opacity-30" />
-            <div
-              className="relative inline-flex items-center gap-2 rounded-full px-6 py-2.5 text-xs font-extrabold shadow-xl backdrop-blur-sm"
-              style={{
-                background: "rgba(var(--surface-rgb), 0.9)",
-                border: "1px solid rgba(var(--accent-rgb), 0.3)",
-                color: "var(--text)",
-              }}
-            >
-              <motion.span
-                animate={{ scale: [1, 1.2, 1] }}
-                transition={{ repeat: Infinity, duration: 2 }}
-                className="h-2 w-2 rounded-full"
-                style={{ background: "var(--accent)" }}
-              />
-              <span className="bg-gradient-to-r from-[var(--accent)] to-[var(--primary)] bg-clip-text text-transparent font-bold">
-                {howWeAreContent.kicker}
-              </span>
-              <Sparkles className="h-3 w-3 ml-1" style={{ color: "var(--accent)" }} />
-            </div>
-          </div> */}
+          
 
           <motion.h2
             variants={fadeInUp}
@@ -740,7 +719,7 @@ export default function HowWeAreSection() {
                               src={firstTrustee.image}
                               alt={firstTrustee.name}
                               fill
-                              className="object-cover transition-transform duration-700 group-hover:scale-110"
+                              className="object-cover transition-transform duration-700 group-hover:scale-102"
                               sizes="176px"
                             />
                           ) : (
@@ -782,23 +761,13 @@ export default function HowWeAreSection() {
                           </span>
                         </h3>
                         
-                        {/* Quick stat pills */}
-                        {/* <div className="flex flex-wrap gap-3 mt-4">
-                          <div className="flex items-center gap-1 px-3 py-1.5 rounded-full" style={{ background: "rgba(var(--primary-rgb), 0.1)" }}>
-                            <Target className="h-3 w-3" style={{ color: "var(--primary)" }} />
-                            <span className="text-xs font-medium" style={{ color: "var(--text)" }}>20+ Projects</span>
-                          </div>
-                          <div className="flex items-center gap-1 px-3 py-1.5 rounded-full" style={{ background: "rgba(var(--accent-rgb), 0.1)" }}>
-                            <Gem className="h-3 w-3" style={{ color: "var(--accent)" }} />
-                            <span className="text-xs font-medium" style={{ color: "var(--text)" }}>10+ Years</span>
-                          </div>
-                        </div> */}
+                      
                       </div>
                     </div>
 
                     {/* About section with creative quote styling */}
                     <div className="relative mb-8">
-                      <Quote className="absolute -left-2 -top-2 h-12 w-12" style={{ color: "var(--accent)", opacity: 0.2 }} />
+                      {/* <Quote className="absolute -left-2 -top-2 h-12 w-12" style={{ color: "var(--accent)", opacity: 0.2 }} /> */}
                       <div
                         className="relative p-6 rounded-2xl"
                         style={{

@@ -5,7 +5,7 @@ const footerContent = {
   brand: {
     title: "ALKA",
     link: "/",
-    description: `We’d love to hear from you. Whether you want to volunteer, collaborate, support ALKA, or simply share an idea, we’re here to connect.
+    description: `We would love to hear from you. Whether you want to volunteer, collaborate, support ALKA, or simply share an idea, we’re here to connect.
 Together, we can make learning, awareness and purpose a part of everyday life.`,
   },
 

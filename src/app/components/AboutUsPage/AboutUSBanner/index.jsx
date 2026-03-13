@@ -7,21 +7,18 @@ import { aboutBanner } from "@/app/content/aboutus.banner";
 export default function AboutUsBanner() {
   return (
     <section className="w-full">
-      {/* HERO */}
       <div className="relative h-[260px] sm:h-[420px] w-full overflow-hidden -mt-[80px]">
         <Image
           src={aboutBanner.heroImage}
           alt={aboutBanner.title}
           fill
           priority
-          className="object-center"
+          className="object-cover object-center"
           sizes="100vw"
         />
 
-        {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/30" />
 
-        {/* Text */}
         <div className="container-page relative h-full">
           <div className="flex h-full items-end pb-8 sm:pb-24 pt-[80px]">
             <div>

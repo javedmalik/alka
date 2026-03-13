@@ -224,17 +224,17 @@ export default function DonorsSection() {
                   {/* Donor info */}
                   {/* Donor info */}
                   <div className="relative text-center">
-                    <div className="mb-2 flex items-center justify-center">
+                    {/* <div className="mb-2 flex items-center justify-center">
                       <h3
                         className="text-lg font-extrabold"
                         style={{ color: "var(--text)" }}
                       >
                         {donor.name}
                       </h3>
-                    </div>
+                    </div> */}
 
                     <div
-                      className="flex items-center justify-center gap-2 text-xs"
+                      className="flex items-center justify-center gap-2 text-xm"
                       style={{ color: "var(--text-muted)" }}
                     >
                       <HeartHandshake

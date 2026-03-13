@@ -460,7 +460,7 @@ export default function VisionMissionSection() {
                   className="text-base text-justify leading-relaxed"
                   style={{ color: "var(--text-muted)" }}
                 >
-                  <RichText text={visionBlock.content2} />
+                  <RichText text={visionBlock.content4} />
                 </p>
 
                 {/* {visionBlock.content3 && (
@@ -477,7 +477,7 @@ export default function VisionMissionSection() {
                     className="text-base text-justify leading-relaxed"
                     style={{ color: "var(--text-muted)" }}
                   >
-                    <RichText text={visionBlock.content4} />
+                    <RichText text={visionBlock.content2} />
                   </p>
                 )}
               </div>

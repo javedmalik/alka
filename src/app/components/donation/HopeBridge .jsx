@@ -158,7 +158,9 @@ export default function HopeBridge() {
                   <a
                     href="tel:9667166811"
                     className="inline-flex h-11 items-center justify-center rounded-xl px-5 text-sm font-extrabold text-white transition hover:-translate-y-0.5 hover:shadow-md"
-                    style={{ background: "var(--primary)" }}
+                    style={{
+                      background: "linear-gradient(135deg, var(--primary), var(--accent))",
+                    }}
                   >
                     Call Us
                   </a>
@@ -191,10 +193,11 @@ export default function HopeBridge() {
                   </div>
 
                   <div className="mt-2 font-serif text-2xl" style={{ color: "var(--text)" }}>
-                    Scan & Donate
+                    {/* Scan & Donate */}
+                    Kndly contact us on email or call.
                   </div>
 
-                  <div className="mt-5 grid place-items-center">
+                  {/* <div className="mt-5 grid place-items-center">
                     <div
                       className="relative overflow-hidden rounded-2xl shadow-lg"
                       style={{ background: "var(--surface)" }}
@@ -215,7 +218,7 @@ export default function HopeBridge() {
                     style={{ background: "rgba(255,255,255,0.6)", color: "var(--text-muted)" }}
                   >
                     Tip: Use any UPI app to scan. If you face issues, contact us and we’ll help.
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
