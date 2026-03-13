@@ -15,7 +15,7 @@ const howWeAreContent = {
       inspiration:
         "The moment someone applies learning in real life and becomes stronger from within.",
       thought:
-        "ALKA is not just an initiative — it’s a movement of awareness that builds better individuals and better communities.",
+        "To see a world where people live with clarity and purpose, where purpose guides progress, kindness shapes decisions, and learning becomes a natural part of life.",
     },
     {
       name: "Mr. Vinayak Mittal",
@@ -40,6 +40,19 @@ const howWeAreContent = {
         "ALKA is about building values — learning with purpose, and living with heart.",
     },
   ],
+
+  trusteeText1: `Alka NGO was founded in 2022 with a simple but powerful belief — real change begins with values.`,
+  trusteeText2: `The journey begins with one word “WHY”, with a few honest questions: `,
+  trusteeText3: `Why do so many people lack access to education? `,
+  trusteeText4: `Why do women continue to face harassment? `,
+  trusteeText5: `Why do people forget respect, kindness, and responsibility? `,
+  trusteeText6: `Why do people use negative words without a thought? `,
+  trusteeText7: `The answers led us to a deeper realization: something essential is missing in our society — values.  `,
+  trusteeText8: `Seeing this growing need, Dr. Pankaj Mittal started Alka with a vision to expandmore than just academic education. 
+                  The goal was to nurture awareness, character, and compassion so that people can live meaningful lives and build a better society.  `,
+  trusteeText9: `At Alka, we believe that when people learn to live with purpose and values, they don’t just change their own lives — they change the world around them.`,
+  
+
 };
 
 export default howWeAreContent;

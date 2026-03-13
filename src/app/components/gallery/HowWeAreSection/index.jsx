@@ -709,7 +709,7 @@ export default function HowWeAreSection() {
                   
                   <div className="relative p-8 lg:p-10">
                     {/* Profile header with creative layout */}
-                    <div className="flex flex-col md:flex-row items-start gap-8 mb-8">
+                    <div className="flex flex-col md:flex-row items-start gap-8 mb-2">
                       {/* Image with artistic frame */}
                       <div className="relative flex-shrink-0">
                         <div className="absolute -inset-1 bg-gradient-to-r from-[var(--accent)] via-[var(--primary)] to-[var(--gold)] rounded-2xl blur-lg opacity-70 animate-pulse" />
@@ -766,7 +766,7 @@ export default function HowWeAreSection() {
                     </div>
 
                     {/* About section with creative quote styling */}
-                    <div className="relative mb-8">
+                    <div className="relative mb-1">
                       {/* <Quote className="absolute -left-2 -top-2 h-12 w-12" style={{ color: "var(--accent)", opacity: 0.2 }} /> */}
                       <div
                         className="relative p-6 rounded-2xl"
@@ -775,9 +775,26 @@ export default function HowWeAreSection() {
                           border: "1px solid rgba(var(--accent-rgb), 0.2)",
                         }}
                       >
-                        <p className="text-base leading-relaxed" style={{ color: "var(--text-muted)" }}>
-                          {firstTrusteeText.about}
+                        <p className="text-xs font-bold leading-relaxed" style={{ color: "var(--text-muted)" }}>
+                          {howWeAreContent.trusteeText1}  {howWeAreContent.trusteeText2}
                         </p>
+                        <p className="text-xs leading-relaxed" style={{ color: "var(--text-muted)" }}>
+                          •{howWeAreContent.trusteeText3} <br/>
+                          •{howWeAreContent.trusteeText4} <br/>
+                          •{howWeAreContent.trusteeText5} <br/>
+                          •{howWeAreContent.trusteeText6} <br/>
+                        </p>
+                        <p></p>
+                        <p className="text-xs font-bold leading-relaxed" style={{ color: "var(--text-muted)" }}>
+                          {howWeAreContent.trusteeText7} <br/>
+                     
+                        </p>
+                        <p><br/></p>
+                         <p className="text-xs font-bold text-justify leading-relaxed" style={{ color: "var(--text-muted)" }}>
+                        ✨ {howWeAreContent.trusteeText8} <br/>
+                     
+                        </p>
+                        
                       </div>
                     </div>
 
@@ -806,8 +823,8 @@ export default function HowWeAreSection() {
                           <div className="text-sm font-extrabold mb-1" style={{ color: "var(--text)" }}>
                             Message to the community
                           </div>
-                          <p className="text-base italic" style={{ color: "var(--text-muted)" }}>
-                            "{firstTrusteeText.thought}"
+                          <p className="text-base italic text-justify"  style={{ color: "var(--text-muted)" }}>
+                            "{howWeAreContent.trusteeText9}"
                           </p>
                         </div>
                       </div>

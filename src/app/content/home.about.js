@@ -6,7 +6,8 @@ const aboutContent = {
     {
       label: "Know Us",
       title: "Who are we",
-      text: "Founded in 2022, ALKA (Aware, Learn, Know, Apply) is a purpose-driven trust committed to building a more conscious, inclusive, and values-based society.",
+      //  text: "Founded in 2024, ALKA (Aware, Learn, Know, Apply) is a purpose-driven trust committed to building a more conscious, inclusive, and values-based society.",
+      text: "Founded in 2022, ALKA is a purpose-driven trust committed to building a conscious, inclusive, and values-based society.",
       button: "Learn more",
       image: "/images/banners/home_page_banners/12.jpeg",
       link: "/aboutus",

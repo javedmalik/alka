@@ -530,14 +530,14 @@ export default function ContactUsSection() {
     <section className="relative">
       <div className="relative h-[260px] w-full overflow-hidden sm:h-[320px]">
         <Image
-          src="/images/banners/contactus.png"
+          src="/images/banners/contact_banner.png"
           alt="Contact banner"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover object-[center_35%]"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-black/5" />
 
         <div className="container-page relative h-full">
           <div className="flex h-full items-end pb-8 pt-[80px] sm:pb-20">

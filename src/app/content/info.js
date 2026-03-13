@@ -11,7 +11,7 @@ const information = {
     {
       name: "Dr. Pankaj Mital",
       role: "(Trustee)",
-      image: "/images/team/pankaj.jpg",
+      image: "/images/team/PK2.jpg",
       text: "The driving force behind ALKA, transforming a thought into a movement of awareness and empowerment."
     },
     {
@@ -23,7 +23,7 @@ const information = {
     {
       name: "Ms. Nisha Mittal",
       role: "(Trustee)",
-      image: "/images/team/nisha.jpg",
+      image: "/images/team/NM2.jpg",
       text: "Strengthening Alka’s foundation through thoughtful guidance and integrity."
     },
   ],
@@ -43,7 +43,7 @@ const information = {
      {
       name: "Ms. Aarchi Poddar",
       role: "(Executive Member)",
-      image: "/images/team/aarchi.jpg",
+      image: "/images/team/AP.jpg",
       text: "Connecting communities with opportunities through active engagement, coordination, and compassionate leadership."
     },
     {

@@ -147,11 +147,11 @@ export default function HomeBanner() {
               {bannerContent.title}
             </h1>
 
-            <p className="pt-5 max-w-2xl text-sm leading-relaxed text-white/85 sm:text-base lg:text-xl">
+            {/* <p className="pt-5 max-w-2xl text-sm leading-relaxed text-white/85 sm:text-base lg:text-xl">
               {bannerContent.description}
-            </p>
+            </p> */}
             <p className="mt-4 max-w-full text-sm leading-relaxed text-white/85 sm:text-base lg:text-xl">
-              {bannerContent.description2}
+             <br/> {bannerContent.description2}
             </p>
 
             {/* <div className="mt-7">

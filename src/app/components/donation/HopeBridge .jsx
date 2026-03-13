@@ -11,7 +11,7 @@ export default function HopeBridge() {
       <section className="relative">
         <div className="relative h-[260px] w-full overflow-hidden sm:h-[320px]">
           <Image
-            src="/images/banners/donation2.jpg" // change if needed
+            src="/images/banners/donation2.jpg"
             alt="Donation banner"
             fill
             priority
@@ -194,7 +194,7 @@ export default function HopeBridge() {
 
                   <div className="mt-2 font-serif text-2xl" style={{ color: "var(--text)" }}>
                     {/* Scan & Donate */}
-                    Kndly contact us on email or call.
+                    Kindly contact us on email or call.
                   </div>
 
                   {/* <div className="mt-5 grid place-items-center">

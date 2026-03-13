@@ -17,7 +17,10 @@ export default function ImpactStoriesSection() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src={aboutContent?.backgroundImage || "/images/banners/aboutus_page_banners/core.jpeg"}
+            src={
+              aboutContent?.backgroundImage ||
+              "/images/banners/aboutus_page_banners/core.jpeg"
+            }
             alt="Impact stories background"
             fill
             priority
@@ -43,25 +46,25 @@ export default function ImpactStoriesSection() {
             </h2>
           </div>
 
-        <div className="mt-16 grid gap-8 lg:grid-cols-2 lg:gap-10">
-  <StoryCard
-    className="ml-4 sm:ml-10 lg:ml-24"
-    label={card1.label}
-    title={card1.title}
-    text={card1.text}
-    href={card1.link}
-    btn={card1.button}
-  />
+          <div className="mt-16 grid gap-8 lg:grid-cols-2 lg:gap-10">
+            <StoryCard
+              className="ml-4 sm:ml-10 lg:ml-24"
+              label={card1.label}
+              title={card1.title}
+              text={card1.text}
+              href={card1.link}
+              btn={card1.button}
+            />
 
-  <StoryCard
-    className="ml-0 sm:ml-6 lg:ml-16"
-    label={card2.label}
-    title={card2.title}
-    text={card2.text}
-    href={card2.link}
-    btn={card2.button}
-  />
-</div>
+            <StoryCard
+              className="ml-0 sm:ml-6 lg:ml-16"
+              label={card2.label}
+              title={card2.title}
+              text={card2.text}
+              href={card2.link}
+              btn={card2.button}
+            />
+          </div>
 
           <div className="h-36 sm:h-44" />
         </div>
@@ -72,7 +75,7 @@ export default function ImpactStoriesSection() {
 
 function StoryCard({ label, title, text, href, btn, className = "mt-20" }) {
   return (
-    <div className={`relative ${className}`}>
+    <div className={`relative ${className} lg:pl-20`}>
       <div className="text-[64px] font-black leading-none text-orange-500/90">
         “
       </div>

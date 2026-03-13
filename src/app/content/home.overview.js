@@ -11,8 +11,10 @@ const overviewContent = {
 
   // Only 2 images provided — component will reuse them to render 4 tiles
   images: [
+    "/images/banners/home_page_banners/11.jpeg",
+    "/images/banners/home_page_banners/13.png",
+    "/images/banners/home_page_banners/6.jpeg",
     "/images/banners/home_page_banners/4.png",
-    "/images/banners/home_page_banners/7.jpeg",
   ],
 
   imageAlts: [

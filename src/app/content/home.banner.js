@@ -5,7 +5,8 @@ const bannerContent = {
   title: "Empowering Minds, Transforming lives",
   description:
     " बच्चे देश का भविष्य हैं और शिक्षा उनकी सबसे बड़ी ताकत है।",
-    description2:"Children are the future of the nation, and education is their greatest strength.",
+    // description2:"Children are the future of the nation, and education is their greatest strength.",
+    description2:"Education has no age limit — it is a lifelong light for every generation.", 
 
   stats: [
     { value: "50+", label: "Volunteers" },
