@@ -43,7 +43,7 @@ const information = {
      {
       name: "Ms. Aarchi Poddar",
       role: "(Executive Member)",
-      image: "/images/team/AP.jpg",
+      image: "/images/team/AP2.jpg",
       text: "Connecting communities with opportunities through active engagement, coordination, and compassionate leadership."
     },
     {
@@ -56,7 +56,7 @@ const information = {
      {
       name: "Ms. Kusumlata Kumari",
       role: "(Executive Member)",
-      image: "/images/team/kusum.jpg",
+      image: "/images/team/KSL.png",
       text: "Curating content that spreads awareness and inspires curiosity beyond boundaries."
     },
    

@@ -469,7 +469,7 @@ function ProfileSlide({ person, index, total, onBack, isActive }) {
               className="m-4 overflow-hidden rounded-[16px]"
               style={{ background: "var(--surface-2)" }}
             >
-              <div className="relative h-[260px] w-[260px] sm:h-[320px] sm:w-[320px]">
+              <div className="relative h-[260px] w-[260px] sm:h-[420px] sm:w-[320px]">
                 {/* <Image
                   src={person.image}
                   alt={person.name}
@@ -486,7 +486,7 @@ function ProfileSlide({ person, index, total, onBack, isActive }) {
                     filter:
                       "saturate(1.18) contrast(1.06) brightness(1.02) sepia(0.06)",
                   }}
-                  sizes="(max-width: 640px) 260px, 320px"
+                  sizes="(max-width: 640px) 160px, 120px"
                 />
               </div>
             </div>

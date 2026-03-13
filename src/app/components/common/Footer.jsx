@@ -1,9 +1,20 @@
 "use client";
 
 import Link from "next/link";
-import {logo} from "@/app/content/logo";
+import { logo } from "@/app/content/logo";
 import footerContent from "@/app/content/footer";
-import { Heart, Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  ArrowUpRight,
+  House,
+  Info,
+  Image as ImageIcon,
+  HandHeart,
+  Contact,
+} from "lucide-react";
+
 import AnimatedTagline from "./AnimatedTagline";
 
 function SocialIcon({ item }) {
@@ -113,7 +124,6 @@ export default function FooterSection() {
         />
       </div>
 
-      
       <AnimatedTagline />
 
       {/* Main Footer Content - Increased width, reduced padding */}
@@ -140,8 +150,6 @@ export default function FooterSection() {
               {brand?.description || ""}
             </p>
 
-            
-
             {/* Social Icons - Smaller */}
             <div className="flex flex-wrap items-center gap-2 pt-2">
               {(social || []).map((s) => (
@@ -166,27 +174,36 @@ export default function FooterSection() {
 
           {/* Quick Links - 2 cols */}
           <div className="lg:col-span-2">
-            <h4 className="text-sm font-semibold text-white/90 mb-4">
+            <h4 className="mb-4 text-sm font-semibold text-white/90">
               Quick Links
             </h4>
-            <ul className="space-y-2.5">
+
+            <ul className="space-y-2.5 pt-5">
               {[
-                { href: "/aboutus", label: "About Us" },
-                { href: "/gallery", label: "Gallery" },
-                { href: "/donation", label: "Donate" },
-                { href: "/contactus", label: "Contact Us" },
-              ].map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="group inline-flex items-center gap-1.5 text-sm transition-all hover:translate-x-1"
-                    style={{ color: "rgba(255,255,255,0.7)" }}
-                  >
-                    <span className="h-1 w-1 rounded-full bg-[var(--accent)] opacity-0 transition-opacity group-hover:opacity-100" />
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
+                { href: "/", label: "Home", icon: House },
+                { href: "/aboutus", label: "About Us", icon: Info },
+                { href: "/gallery", label: "Gallery", icon: ImageIcon },
+                { href: "/donation", label: "Donate", icon: HandHeart },
+                { href: "/contactus", label: "Contact Us", icon: Contact },
+              ].map((link) => {
+                const Icon = link.icon;
+
+                return (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="group inline-flex items-center gap-2 text-sm transition-all hover:translate-x-1"
+                      style={{ color: "rgba(255,255,255,0.7)" }}
+                    >
+                      <Icon
+                        className="h-4 w-4 shrink-0 transition-all duration-300 group-hover:scale-110 ]"
+                        style={{ color: "#ffffff" }}
+                      />
+                      <span>{link.label}</span>
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
@@ -310,7 +327,7 @@ export default function FooterSection() {
             {legal?.copyright || ""}
           </p>
 
-          <div
+          {/* <div
             className="flex items-center gap-3 text-xs"
             style={{ color: "rgba(255,255,255,0.5)" }}
           >
@@ -322,7 +339,7 @@ export default function FooterSection() {
               />{" "}
               for impact
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
