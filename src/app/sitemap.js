@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const base = "https://alka.org"; // ✅ change domain
+  const base = "https://alkatrust.com"; // ✅ change domain
   const now = new Date();
 
   return [

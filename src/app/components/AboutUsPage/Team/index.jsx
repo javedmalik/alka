@@ -1,146 +1,3 @@
-// "use client";
-
-// import React from "react";
-// import Image from "next/image";
-// import content from "@/app/content/teamContent";
-
-// function PersonCard({ member, tone = "primary" }) {
-//   const accent =
-//     tone === "accent"
-//       ? "linear-gradient(135deg, var(--accent) 0%, var(--gold) 100%)"
-//       : "linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%)";
-
-//   return (
-//     <div
-//       className="group relative overflow-hidden rounded-3xl shadow-lg transition hover:-translate-y-1 hover:shadow-xl"
-//       style={{ background: "var(--surface)" }}
-//     >
-//       {/* top accent */}
-//       <div className="absolute left-0 top-0 h-1 w-full" style={{ background: accent }} />
-
-//       {/* header image */}
-//       <div className="relative h-56 w-full overflow-hidden">
-//         <Image
-//           src={member.image}
-//           alt={member.name}
-//           fill
-//           className="object-cover object-top transition duration-700 group-hover:scale-[1.05]"
-
-//           sizes="(max-width: 1024px) 100vw, 33vw"
-//         />
-//         {/* soft overlay for text contrast */}
-//         <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
-
-//         {/* role pill */}
-//         <div className="absolute left-5 top-5">
-//           <span
-//             className="inline-flex items-center rounded-full px-3 py-1 text-xs font-extrabold text-white"
-//             style={{ background: "rgba(0,0,0,0.35)", border: "1px solid rgba(255,255,255,0.18)" }}
-//           >
-//             {member.role}
-//           </span>
-//         </div>
-//       </div>
-
-//       {/* content */}
-//       <div className="p-6">
-//         <h3 className="text-lg font-extrabold" style={{ color: "var(--text)" }}>
-//           {member.name}
-//         </h3>
-
-//         <p className="mt-2 text-sm leading-relaxed" style={{ color: "var(--text-muted)" }}>
-//           {member.bio ||
-//             "Dedicated to building awareness, inspiring learning, and creating positive community impact through ALKA."}
-//         </p>
-
-//         {/* bottom mini accents */}
-//         <div className="mt-5 flex items-center gap-2">
-//           <span className="h-1 w-10 rounded-full" style={{ background: "var(--accent)" }} />
-//           <span className="h-1 w-6 rounded-full" style={{ background: "var(--gold)" }} />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default function TeamSection() {
-//   const members = content.member || [];
-//   const trustees = content.trustee || [];
-
-//   return (
-//     <section className="section -mt-12">
-//       <div className="container-page max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
-//         {/* Section header */}
-//         <div className="text-center">
-//           <div
-//             className="mx-auto inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-extrabold shadow-sm"
-//             style={{ background: "var(--surface-2)", color: "var(--text-muted)" }}
-//           >
-//             OUR PEOPLE
-//           </div>
-
-//           <h2 className="mt-4 font-serif text-3xl sm:text-4xl" style={{ color: "var(--text)" }}>
-//             {content.title}
-//           </h2>
-
-//           <p
-//             className="mx-auto mt-3 max-w-full text-sm sm:text-base"
-//             style={{ color: "var(--text-muted)" }}
-//           >
-//             {content.description}
-//           </p>
-
-//           <div
-//             className="mx-auto mt-5 h-1 w-16 rounded-full"
-//             style={{ background: "linear-gradient(90deg, var(--primary), var(--accent))" }}
-//           />
-//         </div>
-
-//         {/* Members */}
-//         {members.length > 0 && (
-//           <>
-//             <div className="mt-12 flex items-center justify-between gap-3">
-//               <h3 className="font-serif text-2xl" style={{ color: "var(--text)" }}>
-//                 Team Members
-//               </h3>
-//               <div
-//                 className="hidden sm:block h-px flex-1"
-//                 style={{ background: "color-mix(in oklab, var(--border), transparent 35%)" }}
-//               />
-//             </div>
-
-//             <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-//               {members.map((m, idx) => (
-//                 <PersonCard key={idx} member={m} tone="primary" />
-//               ))}
-//             </div>
-//           </>
-//         )}
-
-//         {/* Trustees */}
-//         {trustees.length > 0 && (
-//           <>
-//             <div className="mt-14 flex items-center justify-between gap-3">
-//               <h3 className="font-serif text-2xl" style={{ color: "var(--text)" }}>
-//                 Trustees
-//               </h3>
-//               <div
-//                 className="hidden sm:block h-px flex-1"
-//                 style={{ background: "color-mix(in oklab, var(--border), transparent 35%)" }}
-//               />
-//             </div>
-
-//             <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-//               {trustees.map((m, idx) => (
-//                 <PersonCard key={idx} member={m} tone="accent" />
-//               ))}
-//             </div>
-//           </>
-//         )}
-//       </div>
-//     </section>
-//   );
-// }
 
 "use client";
 
@@ -149,7 +6,6 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import content from "@/app/content/teamContent";
 
-// ✅ Slider (Swiper)
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, A11y, EffectFade } from "swiper/modules";
 import "swiper/css";
@@ -469,15 +325,8 @@ function ProfileSlide({ person, index, total, onBack, isActive }) {
               className="m-4 overflow-hidden rounded-[16px]"
               style={{ background: "var(--surface-2)" }}
             >
-              <div className="relative h-[260px] w-[260px] sm:h-[420px] sm:w-[320px]">
-                {/* <Image
-                  src={person.image}
-                  alt={person.name}
-                  fill
-                  className="object-cover grayscale contrast-125 transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
-                  sizes="(max-width: 640px) 260px, 320px"
-                /> */}
-                <Image
+              <div className="relative h-[260px] w-[260px] sm:h-[320px] sm:w-[320px]">
+               <Image
                   src={person.image}
                   alt={person.name}
                   fill
@@ -501,19 +350,7 @@ function ProfileSlide({ person, index, total, onBack, isActive }) {
             </div>
           </motion.div>
 
-          {/* Doodles */}
-          {/* <Doodle
-            className="pointer-events-none absolute -right-16 top-10 h-28 w-48 rotate-12"
-            style={{ color: "var(--text-muted)" }}
-          /> */}
-          {/* <motion.div 
-            className="pointer-events-none absolute -left-6 bottom-16 rotate-[6deg] text-xs font-semibold"
-            style={{ color: "var(--text-muted)" }}
-            animate={{ rotate: [6, 8, 6] }}
-            transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
-          >
-            {person.scribble2 || "✦ visionary"}
-          </motion.div> */}
+         
         </div>
       </motion.div>
     </motion.div>

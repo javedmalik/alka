@@ -200,12 +200,12 @@ export default function DonorsSection() {
                         boxShadow: "0 10px 30px -15px rgba(0,0,0,0.2)",
                       }}
                     >
-                      <div className="relative h-16 w-[140px]">
+                      <div className="relative h-16 w-[140px] bg-white rounded-lg">
                         <Image
                           src={donor.logo}
                           alt={`${donor.name} logo`}
                           fill
-                          className="object-contain transition-transform duration-500 group-hover:scale-110"
+                          className="object-contain transition-transform duration-500 group-hover:scale-110 p-1 "
                           sizes="140px"
                         />
                       </div>
@@ -263,7 +263,7 @@ export default function DonorsSection() {
                       />
                     </motion.div>
                   </div>
-                  ``
+                  
                   {/* Hover action indicator */}
                   <motion.div
                     className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300"

@@ -5,6 +5,7 @@ const content = {
   subtitle:
     "We would love to hear from you! Reach out with any questions or ideas.",
   operating_address: information.operating_address,
+  registered_address: information.registered_address,
   email: information.email,
   phone: information.phone,
 };

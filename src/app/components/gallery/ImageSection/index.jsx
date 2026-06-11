@@ -168,7 +168,7 @@ export default function ImageSection() {
               </div> */}
             </div>
 
-            <div
+            {/* <div
               className="hidden sm:flex items-center gap-3 text-base font-semibold mt-8 sm:mt-0"
               style={{ color: "var(--text-muted)" }}
             >
@@ -182,7 +182,7 @@ export default function ImageSection() {
               <span className="bg-gradient-to-r from-gray-800 to-gray-600 dark:from-gray-200 dark:to-gray-400 bg-clip-text text-transparent">
                 Swipe to explore more →
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
 

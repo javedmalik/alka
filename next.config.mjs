@@ -150,8 +150,8 @@ const nextConfig = {
       { protocol: "https", hostname: "www.harshuglobal.in" },
       { protocol: "https", hostname: "www.businessneedsinc.com" },
       { protocol: "https", hostname: "www.onpointwares.com" },
-      { protocol: "https", hostname: "riyuglobal.com" },
-      { protocol: "https", hostname: "rrindustriesus.com" },
+      { protocol: "https", hostname: "www.riyuglobal.com" },
+      { protocol: "https", hostname: "www.rrindustriesus.com" },
     ],
   },
 

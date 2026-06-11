@@ -2,7 +2,7 @@ const spreadContent = {
   title: "Spread the word",
   quoute: "When hearts unite for a cause, the world transforms.",
   description:
-    "Sometimes, the biggest support you can give is by simply sharing our message. When you talk about ALKA, you help more people discover learning, awareness, and purpose. Your voice can inspire others to join us., So together, we can reach more lives and create meaningful change.",
+    "Sometimes, the biggest support you can give is by simply sharing our message. When you talk about ALKA, you help more people discover learning, awareness, and purpose. Your voice can inspire others to join us. So together, we can reach more lives and create meaningful change.",
 
   tip: {
     title:

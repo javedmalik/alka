@@ -7,7 +7,7 @@ const howWeAreContent = {
   // write thoughts + inspiration per trustee name (must match info file names)
   trustees: [
     {
-      name: "Dr. Pankaj Mittal",
+      name: "Dr. Pankaj Mital",
       about:
         "A strong believer in lifelong learning and purpose-driven living. He focuses on building systems that help people grow with clarity and confidence.",
       motivation:
@@ -48,7 +48,7 @@ const howWeAreContent = {
   trusteeText5: `Why do people forget respect, kindness, and responsibility? `,
   trusteeText6: `Why do people use negative words without a thought? `,
   trusteeText7: `The answers led us to a deeper realization: something essential is missing in our society — values.  `,
-  trusteeText8: `Seeing this growing need, Dr. Pankaj Mittal started Alka with a vision to expandmore than just academic education. 
+  trusteeText8: `Seeing this growing need, Dr. Pankaj Mital started Alka with a vision to expand more than just academic education. 
                   The goal was to nurture awareness, character, and compassion so that people can live meaningful lives and build a better society.  `,
   trusteeText9: `At Alka, we believe that when people learn to live with purpose and values, they don’t just change their own lives — they change the world around them.`,
   

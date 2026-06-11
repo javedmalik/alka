@@ -280,7 +280,7 @@ export default function FooterSection() {
                 </div>
                 <div className="min-w-0 flex-1">
                   <div className="text-xs font-medium text-white/50">
-                    Registered Address
+                    Registration Address
                   </div>
                   <p
                     className="text-sm leading-relaxed"
@@ -327,19 +327,7 @@ export default function FooterSection() {
             {legal?.copyright || ""}
           </p>
 
-          {/* <div
-            className="flex items-center gap-3 text-xs"
-            style={{ color: "rgba(255,255,255,0.5)" }}
-          >
-            <span>
-              Built with{" "}
-              <Heart
-                className="inline h-3 w-3"
-                style={{ color: "var(--accent)" }}
-              />{" "}
-              for impact
-            </span>
-          </div> */}
+         
         </div>
       </div>
     </footer>

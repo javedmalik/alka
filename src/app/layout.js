@@ -11,7 +11,7 @@ const playfair = Playfair_Display({ variable: "--font-playfair", subsets: ["lati
 
 const SITE_NAME = "ALKA";
 const SITE_URL = "https://alkatrust.com";
-const DESCRIPTION = "ALKA NGO — Helping communities through initiatives and support. Alka NGO was founded in 2024 with a simple but powerful belief — real change begins with values";
+const DESCRIPTION = "ALKA NGO — Helping communities through initiatives and support. Alka NGO was founded in 2022 with a simple but powerful belief — real change begins with values";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),

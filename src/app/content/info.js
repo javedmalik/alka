@@ -6,12 +6,12 @@ const information = {
   // registered_address: "146, Nehru Road, Chirkunda, Dhanbad, Jharkand 828202",
   operating_address:
     "Sector 63 Rd, H Block, Sector 63, Noida, Uttar Pradesh 201309",
-  registered_address: "Nehru Road, Chirkunda, Dhanbad, Jharkand 828202",
+  registered_address: "Nehru Road, Chirkunda, Dhanbad, Jharkhand 828202",
   companyTrustee: [
     {
       name: "Dr. Pankaj Mital",
       role: "(Trustee)",
-      image: "/images/team/trusteepm.png",
+      image: "/images/team/pankaj.jpg",
       text: "The driving force behind ALKA, transforming a thought into a movement of awareness and empowerment."
     },
     {
@@ -23,7 +23,7 @@ const information = {
     {
       name: "Ms. Nisha Mittal",
       role: "(Trustee)",
-      image: "/images/team/NM2.jpg",
+      image: "/images/team/nishaa8.png",
       text: "Strengthening Alka’s foundation through thoughtful guidance and integrity."
     },
   ],
@@ -56,7 +56,7 @@ const information = {
      {
       name: "Ms. Kusumlata Kumari",
       role: "(Executive Member)",
-      image: "/images/team/KSL.png",
+      image: "/images/team/KSL3.png",
       text: "Curating content that spreads awareness and inspires curiosity beyond boundaries."
     },
    
@@ -96,43 +96,43 @@ const information = {
       from: "2025"
     },
     {
-      name: "Nisha",
+      name: "Nisha Mittal",
       role: "Volunteer",
       place: "Noida, UP",
       from: "2024"
     },
     {
-      name: "Shalini",
+      name: "Shalini Kanchan",
       role: "Volunteer",
       place: "Kulti, West Bengal",
       from: "2024"
     },
     {
-      name: "Aarchi",
+      name: "Aarchi Poddar",
       role: "Volunteer",
       place: "Barakar, West Bengal",
       from: "2025"
     },
     {
-      name: "Kusumlata",
+      name: "Kusumlata Kumari",
       role: "Volunteer",
       place: "Bangalore, Karnataka",
       from: "2026"
     },
     {
-      name: "Anukriti",
+      name: "Anukriti Mittal",
       role: "Volunteer",
       place: "Aonla, UP",
       from: "2025"
     },
     {
-      name: "Khusbhoo",
+      name: "Khusbhoo Gupta",
       role: "Volunteer",
       place: "Indrapuram, Delhi",
       from: "2025"
     },
     {
-      name: "Aashna",
+      name: "Aashna Agarwal",
       role: "Volunteer",
       place: "Chandousi, UP",
       from: "2025"
@@ -150,7 +150,7 @@ const information = {
       from: "2025"
     },
     {
-      name: "Yogendra",
+      name: "Yogendra Rajpoot",
       role: "Volunteer",
       place: "Allahbad, UP",
       from: "2024"
@@ -168,13 +168,13 @@ const information = {
       from: "2025"
     },
     {
-      name: "Javed",
+      name: "Mohammad Javed",
       role: "Volunteer",
       place: "Saket, New Delhi",
       from: "2026"
     },
     {
-      name: "Sourav",
+      name: "Sourav Tewari",
       role: "Volunteer",
       place: "Nirsa, Dhanbad",
       from: "2025"

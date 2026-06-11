@@ -3,7 +3,7 @@ const initiatives = [
     title: "Tree Plantation Drive",
     date: "September 2024",
     location: "",
-    description: `September 2024, we visited a local orphanage to create awareness about caring for the environment. Through simple, interactive discussions and a tree plantation drive, we helped children understand how small actions can make a big difference. 
+    description: `On September 2024, we visited a local orphanage to create awareness about caring for the environment. Through simple, interactive discussions and a tree plantation drive, we helped children understand how small actions can make a big difference. 
 Together, we planted saplings and planted values of responsibility, care, and hope for a greener future.`,
     images: [
       "/images/gallery/sep2024/(1).jpeg",
@@ -17,8 +17,7 @@ Together, we planted saplings and planted values of responsibility, care, and ho
     date: "January 2025",
     location: "",
     description: `On January 2025, we visited a nearby local community area to celebrate the New Year with children and create moments of joy and togetherness. 
-    Around 30–35 children joined us for the celebration, filling the day with laughter, excitement, and smiles. As part of the initiative, 
-    we distributed food packets, cakes, and water bottles, ensuring that every child felt cared for and included. 
+    Around 30–35 children joined us for the celebration, filling the day with laughter, excitement, and smiles. 
     The celebration concluded with a joyful cake-cutting ceremony, making the New Year truly special for the children and giving them a reason to celebrate 
     the beginning of a new year with happiness. This initiative was a heartfelt effort to spread warmth, kindness, and hope, reinforcing our belief that even small 
     acts of compassion can create meaningful impact and lasting memories.`,
@@ -36,8 +35,7 @@ Together, we planted saplings and planted values of responsibility, care, and ho
     title: "Children's Day",
     date: "November 2025",
     location: "",
-    description: `November 2025, Children’s Day, we had the opportunity to visit a neighborhood community and spend time with the children. To make the day a little more special for them, I distributed reading books to encourage learning and imagination, along with a piece of chocolate for 
-    each child. Seeing their excitement and smiles was truly heart-warming and reminded me how small gestures can bring immense joy and meaning to young lives. `,
+    description: `November 2025, on Children’s Day, we had the opportunity to visit a neighborhood community and spend time with the children. To make the day a little more special for them, I distributed reading books to encourage learning and imagination. Seeing their excitement and smiles was truly heart-warming and reminded me how small gestures can bring immense joy and meaning to young lives. `,
     images: ["/images/gallery/nov2025/(1).jfif"],
   },
   {

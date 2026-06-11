@@ -10,22 +10,22 @@ const content = {
     {
       name: "BNI",
       logo: "https://www.businessneedsinc.com/images/logo.png",
-      url: "https://businessneedsinc.com/",
+      url: "https://www.businessneedsinc.com/",
     },
     {
       name: "RIYU",
-      logo: "https://riyuglobal.com/cdn/shop/files/RIYU_logo_png.png",
-      url: "https://riyuglobal.in/",
+      logo: "https://www.riyuglobal.com/cdn/shop/files/RIYU_logo_png.png",
+      url: "https://www.riyuglobal.in/",
     },
     {
       name: "HARSHU",
       logo: "https://www.harshuglobal.in/cdn/shop/files/harshu-logo-crop.png",
-      url:"https://harshuglobal.in/",
+      url:"https://www.harshuglobal.in/",
     },
     {
       name: "R&R",
-      logo: "https://rrindustriesus.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FRNRLOGO.bca4aae5.png&w=3840&q=75",
-      url:"https://rrindustriesus.com/", 
+      logo: "https://www.rrindustriesus.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FRNRLOGO.bca4aae5.png&w=3840&q=75",
+      url:"https://www.rrindustriesus.com/", 
     },
   ],
 };

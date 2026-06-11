@@ -37,7 +37,7 @@ export default function SpreadSection() {
       await navigator.clipboard.writeText(url);
       setCopiedIndex(index);
       setTimeout(() => setCopiedIndex(null), 1200);
-    } catch {}
+    } catch { }
   }
 
   return (
@@ -80,7 +80,7 @@ export default function SpreadSection() {
               {spreadData.description}
             </p>
 
-          
+
 
             {spreadData.tip && (
               <div
@@ -141,7 +141,7 @@ export default function SpreadSection() {
                     </Link>
                   </div>
                 </div>
-                
+
               </div>
             )}
           </div>
@@ -191,47 +191,12 @@ export default function SpreadSection() {
                       </div>
 
                       {/* badge */}
-                      <div
-                        className="absolute left-4 top-4 flex items-center gap-2 rounded-full px-3 py-1 text-xs font-bold text-white"
-                        style={{
-                          background: "rgba(0,0,0,0.35)",
-                          border: "1px solid rgba(255,255,255,0.20)",
-                          backdropFilter: "blur(10px)",
-                        }}
-                      >
-                        <span
-                          className="h-2 w-2 rounded-full"
-                          style={{ background: bg }}
-                        />
-                        Share Template
-                      </div>
-
-                      {/* status pill */}
-                      <div
-                        className="absolute right-4 top-4 rounded-full px-2.5 py-1 text-[11px] font-bold text-white"
-                        style={{
-                          background: "rgba(0,0,0,0.35)",
-                          border: "1px solid rgba(255,255,255,0.18)",
-                          backdropFilter: "blur(10px)",
-                        }}
-                      >
-                        Ready
-                      </div>
+                      
                     </div>
 
                     {/* content */}
                     <div className="flex flex-1 flex-col p-5">
-                      <div className="min-w-0">
-                        <div className="font-serif text-lg leading-snug">
-                          {template.alt || "Template"}
-                        </div>
-                        <div
-                          className="mt-1 truncate text-xs"
-                          style={{ color: "var(--text-muted)" }}
-                        >
-                          {fileName}
-                        </div>
-                      </div>
+                      
 
                       <p className="p-muted mt-3 text-sm leading-relaxed">
                         Use this design to share ALKA’s message on social media
@@ -241,7 +206,7 @@ export default function SpreadSection() {
                       <div className="mt-auto pt-5 grid grid-cols-1 gap-3">
                         <a
                           href={template.file}
-                           target="_blank"
+                          target="_blank"
                           rel="noreferrer"
                           className="inline-flex w-full items-center justify-center rounded-2xl px-4 py-3 text-sm font-semibold text-white transition
                                      hover:opacity-90 active:opacity-80 focus:outline-none focus-visible:ring-2"

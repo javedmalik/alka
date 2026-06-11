@@ -66,25 +66,7 @@ export default function VolunteerCarousel() {
         <div className="container-page max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="relative">
-              {/* <div className="flex items-center gap-3 py-4">
-                <div className="relative">
-                  <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur opacity-30"></div>
-                  <div
-                    className="relative inline-flex items-center gap-2 rounded-full px-4 py-2.5 text-xs font-bold shadow-lg backdrop-blur-sm"
-                    style={{
-                      background: "rgba(255, 255, 255, 0.15)",
-                      border: "1px solid rgba(255, 255, 255, 0.2)",
-                      color: "var(--text)",
-                    }}
-                  >
-                    <Users className="h-4 w-4" />
-                    <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                      OUR VOLUNTEERS
-                    </span>
-                  </div>
-                </div>
-              </div> */}
-
+              
               <h2
                 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold mt-2"
                 style={{ color: "var(--text)" }}
@@ -103,39 +85,10 @@ export default function VolunteerCarousel() {
                 kindness and create lasting impact.
               </p>
 
-              {/* Stats - Original theme */}
-              {/* <div className="flex flex-wrap gap-6 mt-8">
-                <div className="flex items-center gap-2">
-                  <div className="p-2 rounded-lg bg-gradient-to-br from-purple-500/10 to-pink-500/10">
-                    <Award className="h-5 w-5 text-purple-600" />
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold">250+</div>
-                    <div className="text-sm text-gray-500">Active Volunteers</div>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="p-2 rounded-lg bg-gradient-to-br from-blue-500/10 to-cyan-500/10">
-                    <Globe className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold">15+</div>
-                    <div className="text-sm text-gray-500">Countries</div>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="p-2 rounded-lg bg-gradient-to-br from-green-500/10 to-emerald-500/10">
-                    <Calendar className="h-5 w-5 text-green-600" />
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold">5K+</div>
-                    <div className="text-sm text-gray-500">Hours Served</div>
-                  </div>
-                </div>
-              </div> */}
+             
             </div>
 
-            <div
+            {/* <div
               className="hidden sm:flex items-center gap-3 text-base font-semibold mt-8 sm:mt-0"
               style={{ color: "var(--text-muted)" }}
             >
@@ -149,7 +102,7 @@ export default function VolunteerCarousel() {
               <span className="bg-gradient-to-r from-gray-800 to-gray-600 dark:from-gray-200 dark:to-gray-400 bg-clip-text text-transparent">
                 Swipe to explore more →
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -202,10 +155,11 @@ export default function VolunteerCarousel() {
                   slidesPerView: 3,
                   spaceBetween: 24,
                 },
-                1280: {
-                  slidesPerView: 4,
+                1440: {
+                  slidesPerView: 3,
                   spaceBetween: 24,
                 },
+                
               }}
               className="alka-volunteer-swiper"
             >

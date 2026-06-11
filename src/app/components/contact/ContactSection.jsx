@@ -284,17 +284,17 @@ function FlyerCard({ template, index, copiedIndex, copyLink }) {
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
         </div>
 
-        <div className="absolute left-3 top-3 rounded-full border border-white/20 bg-black/40 px-2 py-0.5 text-[10px] font-medium text-white backdrop-blur-sm">
+        {/* <div className="absolute left-3 top-3 rounded-full border border-white/20 bg-black/40 px-2 py-0.5 text-[10px] font-medium text-white backdrop-blur-sm">
           <span
             className="mr-1 inline-block h-1.5 w-1.5 rounded-full"
             style={{ background: bg }}
           />
           Template
-        </div>
+        </div> */}
       </div>
 
       <div className="p-4">
-        <div className="font-serif text-base" style={{ color: "var(--text)" }}>
+        {/* <div className="font-serif text-base" style={{ color: "var(--text)" }}>
           {template.alt || "Template"}
         </div>
         <div
@@ -302,7 +302,7 @@ function FlyerCard({ template, index, copiedIndex, copyLink }) {
           style={{ color: "var(--text-muted)" }}
         >
           {fileName}
-        </div>
+        </div> */}
 
         <div className="mt-4 grid grid-cols-2 gap-2">
           <a
@@ -1032,7 +1032,7 @@ export default function ContactUsSection() {
             <ContactCard
               icon={MapPin}
               title="Registered Address"
-              text={content.registered_address || content.operating_address}
+              text={content.registered_address}
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
                 content.registered_address || content.operating_address,
               )}`}
