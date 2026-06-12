@@ -15,7 +15,7 @@ const howWeAreContent = {
       inspiration:
         "The moment someone applies learning in real life, they begin to grow stronger from within.",
       thought:
-        "Here, we should avoid using first-person language like “I distributed reading books.” Since this is for the initiative/organization, we should use",
+        "To see a world where people live with clarity and purpose, where purpose guides progress, kindness shapes decisions, and learning becomes a natural part of life.",
     },
     {
       name: "Mr. Vinayak Mittal",
