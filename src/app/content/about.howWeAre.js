@@ -11,9 +11,9 @@ const howWeAreContent = {
       about:
         "A strong believer in lifelong learning and purpose-driven living. He focuses on building systems that help people grow with clarity and confidence.",
       motivation:
-        "For Motivation we can write, Helping people discover meaning and direction - so they can make better decisions in life.",
+        "Helping people discover meaning and direction - so they can make better decisions in life.",
       inspiration:
-        "For Inspiration we can rewrite: The moment someone applies learning in real life, they begin to grow stronger from within.",
+        "The moment someone applies learning in real life, they begin to grow stronger from within.",
       thought:
         "Here, we should avoid using first-person language like “I distributed reading books.” Since this is for the initiative/organization, we should use",
     },
